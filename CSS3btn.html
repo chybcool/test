@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.ass{
+				position: relative;
+				width: 100%;
+				height: 60px;
+				background: black;
+				top: 10px;
+			}
+			.ass ul{
+				position: absolute;
+				width: 1024px;
+				left: 90px;
+			}
+			.ass li{
+				list-style: none;
+				float: left;
+				
+				
+			}
+			.ass li a{
+				height: 60px;
+				line-height: 60px;
+				font-size: 18px;
+				text-decoration: none;
+				color: #FFFFFF;
+				font-style: italic;
+				padding: 2px 8px;
+				
+			}
+			.ass li span{
+				color: cyan;
+			}
+			
+			.ass li a:hover{
+				animation-name: change;/*动画名称*/
+				animation-duration: 1s;/*动画时长*/
+				animation-timing-function: ease-in;/*动画方式*/
+				animation-iteration-count: infinite;/*无限循环*/
+				font-size: 24px;
+				color: #FF00FF ;
+				font-weight: bold;
+				
+			}
+			@keyframes change{
+				0%{text-shadow:0 0 1px #adff2f }/*阴影效果*/
+				50%{text-shadow:0 0 5px #adff2f }
+				100%{text-shadow:0 0 10px #adff2f }
+			}
+		</style>
+		<script>
+	
+		</script>
+	</head>
+	<body>
+<div class="ass">
+	<ul>
+		<li><a href="#">CSS3</a><span>/</span></li>
+		<li><a href="#">mobile</a><span>/</span></li>
+		<li><a href="#">SASS</a><span>/</span></li>
+		<li><a href="#">javascript</a><span>/</span></li>
+		<li><a href="#">视频教程</a><span>/</span></li>
+		<li><a href="#">译文</a><span>/</span></li>
+		<li><a href="#">SVG</a><span>/</span></li>
+		<li><a href="#">标签云</a><span>/</span></li>
+		<li><a href="#">RSS</a></li>
+	</ul>
+</div>
+	</body>
+</html>
+# test
+# test
